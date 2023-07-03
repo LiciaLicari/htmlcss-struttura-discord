@@ -11,7 +11,7 @@
     padding: 1rem;
 }
 
-.row-nav, .row-nav2 {
+.row-nav {
     display: flex;
     max-width: 1170px;
     width: 100%;
@@ -36,13 +36,25 @@
     height: 100px;
 }
 
+.hero-section {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.container_row {
+    width: 200px;
+    height: 350px;
+    background-color: aqua;
+}
+
 /*
 .debug .container{
     height: 400px;
     background-color: orange;  
 }
 */
-.debug .row{
+.debug .row, .debug .hero-section{
     height: 400px;
     background-color: blue;  
 }
