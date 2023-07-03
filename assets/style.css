@@ -4,28 +4,36 @@
     box-sizing: border-box;
 }
 
-.flex_container{
+.container{
     max-width: 1170px;
     width: 80%;
     margin: auto;
-    display: flex; 
-    background-color: orange;
 }
 
 .row {
     display: flex;
-    justify-content: space-between;
-    background-color: blue;
 }
 
-.col{
-    flex-grow: calc(100%/3-2rem);
-    background-color: lightskyblue;
-    display: flex;
-    justify-content: space-between;
+.col-sm{
+   width: 20%;
+
+}
+
+.col-lg{
+    width: 60%;
 }
 
 .header{
     background-color: aqua;
     height: 100px;
+}
+
+.debug .container{
+    height: 400px;
+  background-color: orange;  
+}
+
+.debug .row{
+    height: 400px;
+  background-color: blue;  
 }
