@@ -8,19 +8,27 @@
     max-width: 1170px;
     width: 80%;
     margin: auto;
+    padding: 1rem;
 }
 
-.row {
+.row-nav, .row-nav2 {
     display: flex;
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
 }
 
 .col-sm{
-   width: 20%;
+    width: 20%;
+    background-color: lightpink;
+    padding: 1rem;
 
 }
 
 .col-lg{
     width: 60%;
+    background-color: lightpink;
+    padding: 1rem;
 }
 
 .header{
@@ -28,12 +36,13 @@
     height: 100px;
 }
 
+/*
 .debug .container{
     height: 400px;
-  background-color: orange;  
+    background-color: orange;  
 }
-
+*/
 .debug .row{
     height: 400px;
-  background-color: blue;  
+    background-color: blue;  
 }
