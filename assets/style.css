@@ -34,6 +34,7 @@
 .header{
     background-color: aqua;
     height: 100px;
+    margin-bottom: 1rem;
 }
 
 .hero-section {
@@ -56,5 +57,5 @@
 */
 .debug .row, .debug .hero-section{
     height: 400px;
-    background-color: blue;  
+    background-color: rgb(122, 122, 140);  
 }
