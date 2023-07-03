@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-.container{
+
+.header-container{
     max-width: 1170px;
     width: 80%;
     margin: auto;
@@ -49,13 +50,96 @@
     background-color: aqua;
 }
 
-/*
+
+
+.section {
+    
+    max-width: 1170px;
+    padding-top: 1rem, 2rem;
+
+}
+
+.container-section {
+    display: flex;
+    justify-content: center;
+    max-width: 1170px;
+    width: 60%;
+    margin: auto;
+    padding: 3rem, 0;
+    
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    max-width: 1170px;
+    width: 100%;
+    max-height: 80%;
+    background-color: palegreen;
+    padding: 1rem, 0;
+    
+
+}
+
+.col-60{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    width: 60%;
+    
+}
+
+.col-40{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    width: 40%;
+    background-color: cornflowerblue;
+}
+
+.last{
+    display: flex;
+    justify-content: center;
+    max-width: 1170px;
+    padding: 3rem;
+}
+
+.container_last{
+    width: 60%;
+    background-color: aqua;
+}
+
 .debug .container{
     height: 400px;
     background-color: orange;  
 }
-*/
-.debug .row, .debug .hero-section{
+
+.debug .row, .debug .hero-section {
     height: 400px;
     background-color: rgb(122, 122, 140);  
 }
+
+.debug .section {
+    height: 400px;
+    background-color: bisque;
+}
+
+.debug .container-section{
+    height: 400px;
+    background-color: lightsalmon;
+}
+
+.debug .col-60 {
+    height: 240px;
+    background-color: cornflowerblue;
+}
+
+.debug .col-40 {
+    height: 240px;
+    background-color: cornflowerblue;
+}
+
+.debug .last{
+    height: 450px;
+}
+
